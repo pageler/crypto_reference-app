@@ -4,13 +4,16 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "react-alice-carousel/lib/alice-carousel.css";
+import { CryptoContext } from "./components/CryptoContext";
 
 const root = ReactDOM.createRoot(
     document.getElementById("root") as HTMLElement
 );
 root.render(
     <React.StrictMode>
-        <App />
+        <CryptoContext>
+            <App />
+        </CryptoContext>
     </React.StrictMode>
 );
 

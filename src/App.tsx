@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { makeStyles } from "tss-react/mui";
-import { Header } from "./components/Header";
+import { Header } from "./pages/Header";
 import { HomePage } from "./pages/HomePage";
 import { CoinPage } from "./pages/CoinPage";
 
